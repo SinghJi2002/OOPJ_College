@@ -10,22 +10,20 @@ class Kiitian extends Student {
     void course() {
         System.out.println("Course: B.Tech");
     }
-    void getInput() {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter your roll number of the student");
-        this.rollNo=sc.nextInt();
-        System.out.println("Enter the registration number of the student");
-        this.regNo=sc.nextInt();
-    }
+    void getInput(){}
 }
 
 
 public class One {
     public static void main(String[] args) {
         Kiitian student1 = new Kiitian();
-        student1.getInput();
-        System.out.println("Roll No: " + student1.rollNo);
-        System.out.println("Reg No: " + student1.regNo);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter student name");
+        String name=sc.nextLine();
+        System.out.println("Enter the student roll number");
+        int roll=sc.nextInt();
+        System.out.println("Student Name: "+name);
+        System.out.println("Roll Number: "+roll);
         student1.course();
     }
 }
