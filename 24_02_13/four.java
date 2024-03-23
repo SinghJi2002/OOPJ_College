@@ -16,7 +16,7 @@ class Head implements Manager,Employee {
         System.out.println("Department Name: " + deptName);
     }
 }
-class Main {
+public class four {
     public static void main(String[] args) {
         Head head = new Head();
         Scanner sc=new Scanner(System.in);

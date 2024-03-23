@@ -33,7 +33,7 @@ class Substaff extends Manager {
 }
 
 
-class Main {
+public class three {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter basic salary");
