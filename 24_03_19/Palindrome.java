@@ -10,7 +10,6 @@ public class Palindrome {
             sb.append(str.charAt(i));
         }
         String reverse=sb.toString();
-        System.out.println(reverse);
         if(reverse.equals(str)){
             System.out.println("Palindrome");
         }
