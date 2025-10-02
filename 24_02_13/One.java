@@ -3,14 +3,13 @@ import java.util.Scanner;
 abstract class Student {
     int rollNo;
     int regNo;
-    abstract void getInput();
+    void getInput();
     abstract void course();
 }
 class Kiitian extends Student {
     void course() {
         System.out.println("Course: B.Tech");
     }
-    void getInput(){}
 }
 
 
